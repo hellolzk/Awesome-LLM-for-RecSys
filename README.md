@@ -94,7 +94,7 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 <b>1.2.2 Unified Cross-domain Recommendation</b>
 
 | **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** | **Dataset** |
-|:---:|:---|:---:|:---:|:---:|:---:|
+|:---:|:---|:---:|:---:|:---:|:---:|:---:|
 | ZESRec | Zero-Shot Recommender Systems | BERT-base (110M) | Frozen | Arxiv 2021 | [[Link]](https://arxiv.org/abs/2105.08318) |
 | UniSRec | Towards Universal Sequence Representation Learning for Recommender Systems | BERT-base (110M) | Frozen | KDD 2022 | [[Link]](https://arxiv.org/abs/2206.05941) |
 | TransRec | TransRec: Learning Transferable Recommendation from Mixture-of-Modality Feedback | BERT-base (110M) | Full Finetuning | Arxiv 2022 | [[Link]](https://arxiv.org/abs/2206.06190) |
