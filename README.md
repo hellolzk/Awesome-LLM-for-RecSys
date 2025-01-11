@@ -59,12 +59,12 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 
 <b>1.2.1 Representation Enhancement</b>
 
-| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** |
-|:---:|:---|:---:|:---:|:---:|:---:|
-| U-BERT | U-BERT: Pre-training User Representations for Improved Recommendation | BERT-base (110M) | Full Finetuning | AAAI 2021 | [[Link]](https://ojs.aaai.org/index.php/AAAI/article/view/16557) |
-| UNBERT | UNBERT: User-News Matching BERT for News Recommendation | BERT-base (110M) | Full Finetuning | IJCAI 2021 | [[Link]](https://www.ijcai.org/proceedings/2021/462) |
-| PLM-NR | Empowering News Recommendation with Pre-trained Language Models | RoBERTa-base (125M) | Full Finetuning | SIGIR 2021 | [[Link]](https://arxiv.org/abs/2104.07413) |
-| Pyramid-ERNIE | Pre-trained Language Model based Ranking in Baidu Search | ERNIE (110M) | Full Finetuning | KDD 2021 | [[Link]](https://arxiv.org/abs/2105.11108) |
+| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** | **Dataset** |
+|:---:|:---|:---:|:---:|:---:|:---:|:---:|
+| U-BERT | U-BERT: Pre-training User Representations for Improved Recommendation | BERT-base (110M) | Full Finetuning | AAAI 2021 | [[Link]](https://ojs.aaai.org/index.php/AAAI/article/view/16557) |Amazon product review/Yelp|
+| UNBERT | UNBERT: User-News Matching BERT for News Recommendation | BERT-base (110M) | Full Finetuning | IJCAI 2021 | [[Link]](https://www.ijcai.org/proceedings/2021/462) |MIND|
+| PLM-NR | Empowering News Recommendation with Pre-trained Language Models | RoBERTa-base (125M) | Full Finetuning | SIGIR 2021 | [[Link]](https://arxiv.org/abs/2104.07413) |MIND/Multilingual|用户行为日志|
+| Pyramid-ERNIE | Pre-trained Language Model based Ranking in Baidu Search | ERNIE (110M) | Full Finetuning | KDD 2021 | [[Link]](https://arxiv.org/abs/2105.11108) |用户行为日志|
 | ERNIE-RS | Pre-trained Language Model for Web-scale Retrieval in Baidu Search | ERNIE (110M) | Full Finetuning | KDD 2021 | [[Link]](https://arxiv.org/abs/2106.03373) |
 | CTR-BERT | CTR-BERT: Cost-effective knowledge distillation for billion-parameter teacher models | Customized BERT (1.5B) | Full Finetuning | ENLSP 2021 | [[Link]](https://neurips2021-nlp.github.io/papers/20/CameraReady/camera_ready_final.pdf) |
 | SuKD | Learning Supplementary NLP Features for CTR Prediction in Sponsored Search | RoBERTa-large (355M) | Full Finetuning | KDD 2022 | [[Link]](https://dl.acm.org/doi/abs/10.1145/3534678.3539064) |
@@ -74,20 +74,20 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 | PLM4Tag | PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-trained Models | CodeBERT (125M) | Full Finetuning | ICPC 2022 | [[Link]](https://arxiv.org/abs/2203.10965) |
 | TwHIN-BERT | TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for Multilingual Tweet Representations | BERT-base (110M) | Full Finetuning | Arxiv 2022 | [[Link]](https://arxiv.org/abs/2209.07562) |
 | LSH | Improving Code Example Recommendations on Informal Documentation Using BERT and Query-Aware LSH: A Comparative Study | BERT-base (110M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.03017v1) |
-| LLM2BERT4Rec | Leveraging Large Language Models for Sequential Recommendation | text-embedding-ada-002 | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2309.09261) | 
-| LLM4ARec | Prompt Tuning Large Language Models on Personalized Aspect Extraction for Recommendations | GPT2 (110M) | Prompt Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.01475) |
-| TIGER | Recommender Systems with Generative Retrieval | Sentence-T5-base (223M) | Frozen | NIPS 2023 | [[Link]](https://arxiv.org/abs/2305.05065) |
-| TBIN | TBIN: Modeling Long Textual Behavior Data for CTR Prediction | BERT-base (110M) | Frozen | DLP-RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.08483) |
-| LKPNR | LKPNR: LLM and KG for Personalized News Recommendation Framework | LLaMA2 (7B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.12028) |
-| SSNA | Towards Efficient and Effective Adaptation of Large Language Models for Sequential Recommendation | DistilRoBERTa-base (83M) | Layerwise Adapter Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.01612) |
-| CollabContext | Collaborative Contextualization: Bridging the Gap between Collaborative Filtering and Pre-trained Language Model | Instructor-XL (1.5B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.09400) |
-| LMIndexer | Language Models As Semantic Indexers | T5-base (223M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.07815) |
-| Stack | A BERT based Ensemble Approach for Sentiment Classification of Customer Reviews and its Application to Nudge Marketing in e-Commerce | BERT-base (110M) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.10782) |
+| LLM2BERT4Rec | Leveraging Large Language Models for Sequential Recommendation | text-embedding-ada-002 | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2309.09261) | Amazon Beauty|
+| LLM4ARec | Prompt Tuning Large Language Models on Personalized Aspect Extraction for Recommendations | GPT2 (110M) | Prompt Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.01475) |Amazon/Yelp/TripAdvisor|
+| TIGER | Recommender Systems with Generative Retrieval | Sentence-T5-base (223M) | Frozen | NIPS 2023 | [[Link]](https://arxiv.org/abs/2305.05065) |Amazon Product Reviews|
+| TBIN | TBIN: Modeling Long Textual Behavior Data for CTR Prediction | BERT-base (110M) | Frozen | DLP-RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.08483) |美团外卖数据集|
+| LKPNR | LKPNR: LLM and KG for Personalized News Recommendation Framework | LLaMA2 (7B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.12028) |MIND|
+| SSNA | Towards Efficient and Effective Adaptation of Large Language Models for Sequential Recommendation | DistilRoBERTa-base (83M) | Layerwise Adapter Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.01612) |Amazon Review|
+| CollabContext | Collaborative Contextualization: Bridging the Gap between Collaborative Filtering and Pre-trained Language Model | Instructor-XL (1.5B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.09400) |Amazon Review/Yelp|
+| LMIndexer | Language Models As Semantic Indexers | T5-base (223M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.07815) |Amazon-Beauty/Sports/Toys|
+| Stack | A BERT based Ensemble Approach for Sentiment Classification of Customer Reviews and its Application to Nudge Marketing in e-Commerce | BERT-base (110M) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.10782) |Walmart/Kaggle/e-commerce|
 | N/A | Utilizing Language Models for Tour Itinerary Recommendation | BERT-base (110M) | Full Finetuning | PMAI@IJCAI 2023 | [[Link]](https://arxiv.org/abs/2311.12355) |
-| UEM | User Embedding Model for Personalized Language Prompting | Sentence-T5-base (223M) | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.04858) |
+| UEM | User Embedding Model for Personalized Language Prompting | Sentence-T5-base (223M) | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.04858) |ML|
 | Social-LLM | Social-LLM: Modeling User Behavior at Scale using Language Models and Social Network Data | SBERT-MPNet-base (110M) | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.00893) |
-| LLMRS | LLMRS: Unlocking Potentials of LLM-Based Recommender Systems for Software Purchase | MPNet (110M) | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.06676) |
-| KERL | Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems | BERT-mini | Frozen | TNNLS | [[Link]](https://arxiv.org/abs/2312.10967) |
+| LLMRS | LLMRS: Unlocking Potentials of LLM-Based Recommender Systems for Software Purchase | MPNet (110M) | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.06676) | Amazon Reviews Dataset|
+| KERL | Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems | BERT-mini | Frozen | TNNLS | [[Link]](https://arxiv.org/abs/2312.10967) |ReDial/Inspired|
 | N/A | Empowering Few-Shot Recommender Systems with Large Language Models -- Enhanced Representations | ChatGPT | Frozen | IEEE Access | [[Link]](https://arxiv.org/abs/2312.13557) |
 | N/A | Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations | Unknown | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.08121) |
 
