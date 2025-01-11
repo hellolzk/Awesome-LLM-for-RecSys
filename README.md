@@ -22,18 +22,18 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 | HKFR | Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM | ChatGPT | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.03333) |美团外卖|
 | LLaMA-E | LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following | LLaMA (30B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.04913) |e-commerce|
 | EcomGPT | EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce | BLOOMZ (7.1B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.06966) |**自建电商指令数据集EcomInstruct**|
-| TF-DCon | Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.09874) |
-| RLMRec | Representation Learning with Large Language Models for Recommendation | ChatGPT | Frozen | WWW 2024 | [[Link]](https://arxiv.org/abs/2310.15950) |
-| LLMRec | LLMRec: Large Language Models with Graph Augmentation for Recommendation | ChatGPT | Frozen | WSDM 2024 | [[Link]](https://arxiv.org/pdf/2311.00423.pdf) |
-| LLMRG | Enhancing Recommender Systems with Large Language Model Reasoning Graphs | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.10835) |
-| CUP | Recommendations by Concise User Profiles from Review Text | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.01314) |
-| SINGLE | Modeling User Viewing Flow using Large Language Models for Article Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.07619) |
-| SAGCN | Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models | Vicuna (13B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.16275) |
-| UEM | User Embedding Model for Personalized Language Prompting | FLAN-T5-base (250M) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.04858) |
-| LLMHG | LLM-Guided Multi-View Hypergraph Learning for Human-Centric Explainable Recommendation | GPT4 | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.08217) |
-| Llama4Rec | Integrating Large Language Models into Recommendation via Mutual Augmentation and Adaptive Aggregation | LLaMA2 (7B) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.13870) |
-| LLM4Vis | LLM4Vis: Explainable Visualization Recommendation using ChatGPT | ChatGPT | Frozen | EMNLP 2023 | [[Link]](https://arxiv.org/abs/2310.07652) |
-| LoRec | LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks | LLaMA2 | Frozen | SIGIR 2024 | [[Link]](https://arxiv.org/abs/2401.17723) |
+| TF-DCon | Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.09874) |MIND/Goodreads/MovieLens|
+| RLMRec | Representation Learning with Large Language Models for Recommendation | ChatGPT | Frozen | WWW 2024 | [[Link]](https://arxiv.org/abs/2310.15950) |Amazon-book/Yelp/Steam|
+| LLMRec | LLMRec: Large Language Models with Graph Augmentation for Recommendation | ChatGPT | Frozen | WSDM 2024 | [[Link]](https://arxiv.org/pdf/2311.00423.pdf) | Netfli/MovieLen|
+| LLMRG | Enhancing Recommender Systems with Large Language Model Reasoning Graphs | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.10835) |Beauty/Clothing/ML-1M|
+| CUP | Recommendations by Concise User Profiles from Review Text | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.01314) |GR/AM|
+| SINGLE | Modeling User Viewing Flow using Large Language Models for Article Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.07619) |ATA/MIND|
+| SAGCN | Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models | Vicuna (13B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.16275) |Amazon Product Datasets/Goodreads Review Datasets|
+| UEM | User Embedding Model for Personalized Language Prompting | FLAN-T5-base (250M) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.04858) |ML|
+| LLMHG | LLM-Guided Multi-View Hypergraph Learning for Human-Centric Explainable Recommendation | GPT4 | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.08217) |ML-1M/Amazon Beauty/Amazon Toys|
+| Llama4Rec | Integrating Large Language Models into Recommendation via Mutual Augmentation and Adaptive Aggregation | LLaMA2 (7B) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.13870) |ML-100K/ML-1M/ BookCrossing|
+| LLM4Vis | LLM4Vis: Explainable Visualization Recommendation using ChatGPT | ChatGPT | Frozen | EMNLP 2023 | [[Link]](https://arxiv.org/abs/2310.07652) |VizML|
+| LoRec | LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks | LLaMA2 | Frozen | SIGIR 2024 | [[Link]](https://arxiv.org/abs/2401.17723) |Games/Arts/MIND|
 
 <b>1.1.2 Instance-level Sample Generation</b>
 
