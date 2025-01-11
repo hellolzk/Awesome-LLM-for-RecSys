@@ -10,7 +10,7 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 <b>1.1.1 User- and Item-level Feature Augmentation</b>
 
 | **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** | **Dataset** |
-|:---:|:---|:---:|:---:|:---:|:---:|
+|:---:|:---|:---:|:---:|:---:|:---:|:---:|
 | LLM4KGC | Knowledge Graph Completion Models are Few-shot Learners: An Empirical Study of Relation Labeling in E-commerce with LLMs | PaLM (540B)/ ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.09858v1) |Instacart|
 | TagGPT | TagGPT: Large Language Models are Zero-shot Multimodal Taggers | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2304.03022v1) |
 | ICPC | Large Language Models for User Interest Journeys | LaMDA (137B) | Full Finetuning/ Prompt Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.15498) |
