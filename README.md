@@ -16,12 +16,12 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 | ICPC | Large Language Models for User Interest Journeys | LaMDA (137B) | Full Finetuning/ Prompt Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.15498)|自创旅行数据集|
 | KAR | Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.10933) |ML-1M/Amazon-book|
 | PIE | Product Information Extraction using ChatGPT | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.14921) |Mave|
-| LGIR | Enhancing Job Recommendation through LLM-based Generative Adversarial Networks | GhatGLM (6B) | Frozen | AAAI 2024 | [[Link]](https://arxiv.org/abs/2307.10747) |
-| GIRL | Generative Job Recommendations with Large Language Model | BELLE (7B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.02157) |
-| LLM-Rec | LLM-Rec: Personalized Recommendation via Prompting Large Language Models | text-davinci-003 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.15780) |
-| HKFR | Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM | ChatGPT | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.03333) |
-| LLaMA-E | LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following | LLaMA (30B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.04913) |
-| EcomGPT | EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce | BLOOMZ (7.1B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.06966) |
+| LGIR | Enhancing Job Recommendation through LLM-based Generative Adversarial Networks | GhatGLM (6B) | Frozen | AAAI 2024 | [[Link]](https://arxiv.org/abs/2307.10747) |自建职业推荐数据集|
+| GIRL | Generative Job Recommendations with Large Language Model | BELLE (7B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.02157) |自建职业推荐数据集|
+| LLM-Rec | LLM-Rec: Personalized Recommendation via Prompting Large Language Models | text-davinci-003 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.15780) |Movielens-1M/Recipe|
+| HKFR | Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM | ChatGPT | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.03333) |美团外卖|
+| LLaMA-E | LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following | LLaMA (30B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.04913) |e-commerce|
+<font color="red">| EcomGPT | EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce | BLOOMZ (7.1B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.06966) |自建电商指令数据集EcomInstruct|</font>
 | TF-DCon | Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.09874) |
 | RLMRec | Representation Learning with Large Language Models for Recommendation | ChatGPT | Frozen | WWW 2024 | [[Link]](https://arxiv.org/abs/2310.15950) |
 | LLMRec | LLMRec: Large Language Models with Graph Augmentation for Recommendation | ChatGPT | Frozen | WSDM 2024 | [[Link]](https://arxiv.org/pdf/2311.00423.pdf) |
