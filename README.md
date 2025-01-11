@@ -1,29 +1,3 @@
-# Awesome-LLM-for-RecSys [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-A collection of AWESOME papers and resources on the large language model (LLM) related recommender system topics. 
-
-:tada: Our survey paper has been accepted by **_ACM Transactions on Information Systems (TOIS)_**: [How Can Recommender Systems Benefit from Large Language Models: A Survey](https://dl.acm.org/doi/10.1145/3678004)
-
-:bell: Since our survey paper is archived, we will update the latest research works at ``1.7 Newest Research Work List``.
-
-:grin: I am also wrting weekly paper notes about latest LLM-enhanced RS at WeChat. Welcome to follow by scanning the [QR-Code](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys/blob/main/wechat_for_paper_notes.jpeg).
-
-:rocket:	**2024.07.09 - Paper v6 released**: Our archived camera-ready version for TOIS.
-<details><summary><b>Survey Paper Update Logs</b></summary>
-
-<p>
-<ul>
-  <li><b>2024.07.09 - Paper v6 released</b>: Our camera-ready Version for TOIS, which will be archived.</li>
-  <li><b>2024.02.05 - Paper v5 released</b>: New release with 27-page main content & more thorough taxonomies.</li>
-  <li><b>2023.06.29 - Paper v4 released</b>: 7 papers have been newly added.</li>
-  <li><b>2023.06.28 - Paper v3 released</b>: Fix typos.</li>
-  <li><b>2023.06.12 - Paper v2 released</b>: Add summerization table in the appendix.</li>
-  <li><b>2023.06.09 - Paper v1 released</b>: Initial version.</li>
-</ul>
-</p>
-
-</details>
-
 ## 1. Papers
 
 We classify papers according to where LLM will be adapted in the pipeline of RS, which is summarized in the figure below.
