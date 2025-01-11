@@ -37,19 +37,19 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
 
 <b>1.1.2 Instance-level Sample Generation</b>
 
-| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** |
-|:---:|:---|:---:|:---:|:---:|:---:|
-| GReaT | Language Models are Realistic Tabular Data Generators | GPT2-medium (355M) | Full Finetuning | ICLR 2023 | [[Link]](https://arxiv.org/abs/2210.06280) |
-| ONCE | ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models | ChatGPT | Frozen | WSDM 2024 | [[Link]](https://arxiv.org/abs/2305.06566) |
-| AnyPredict | AnyPredict: Foundation Model for Tabular Prediction | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.12081) |
-| DPLLM | Privacy-Preserving Recommender Systems with Synthetic Query Generation using Differentially Private Large Language Models | T5-XL (3B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.05973) |
-| MINT | Large Language Model Augmented Narrative Driven Recommendations | text-davinci-003 | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2306.02250) |
-| Agent4Rec | On Generative Agents in Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.10108) |
-| RecPrompt | RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.10463) |
-| PO4ISR | Large Language Models for Intent-Driven Session Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.07552) |
-| BEQUE | Large Language Model based Long-tail Query Rewriting in Taobao Search | ChatGLM (6B) | FFT | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.03758) |
-| Agent4Ranking | Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.15450) |
-| PopNudge | Improving Conversational Recommendation Systems via Bias Analysis and Language-Model-Enhanced Data Augmentation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.16738) |
+| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** | **Dataset** |
+|:---:|:---|:---:|:---:|:---:|:---:|:---:|
+| GReaT | Language Models are Realistic Tabular Data Generators | GPT2-medium (355M) | Full Finetuning | ICLR 2023 | [[Link]](https://arxiv.org/abs/2210.06280) |合成表格样本数据|
+| ONCE | ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models | ChatGPT | Frozen | WSDM 2024 | [[Link]](https://arxiv.org/abs/2305.06566) |MIND/Goodreads|
+| AnyPredict | AnyPredict: Foundation Model for Tabular Prediction | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.12081) |整合表格样本|
+| DPLLM | Privacy-Preserving Recommender Systems with Synthetic Query Generation using Differentially Private Large Language Models | T5-XL (3B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.05973) |MSMARCO|
+| MINT | Large Language Model Augmented Narrative Driven Recommendations | text-davinci-003 | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2306.02250) |NDR|
+| Agent4Rec | On Generative Agents in Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.10108) |MovieLens/Amazon-Book/Steam|
+| RecPrompt | RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.10463) |MIND|
+| PO4ISR | Large Language Models for Intent-Driven Session Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.07552) |ML-1M/Games/Bundle|
+| BEQUE | Large Language Model based Long-tail Query Rewriting in Taobao Search | ChatGLM (6B) | FFT | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.03758) |淘宝搜索日志|
+| Agent4Ranking | Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.15450) |Robust04/Industrial Dataset|
+| PopNudge | Improving Conversational Recommendation Systems via Bias Analysis and Language-Model-Enhanced Data Augmentation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.16738) |ReDial/TG-ReDial|
 
 </p>
 </details>
