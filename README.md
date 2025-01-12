@@ -157,29 +157,31 @@ We classify papers according to where LLM will be adapted in the pipeline of RS,
     
 <b>1.3.2 Item Generation Task</b>
 
-| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** |
-|:---:|:---|:---:|:---:|:---:|:---:|
-| GPT4Rec | GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation | GPT2 (110M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2304.03879) |
-| VIP5 | VIP5: Towards Multimodal Foundation Models for Recommendation | T5-base (223M) | Layerwise Adater Tuning | EMNLP 2023 | [[Link]](https://arxiv.org/abs/2305.14302) |
-| P5-ID | How to Index Item IDs for Recommendation Foundation Models | T5-small (60M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.06569) |
-| FaiRLLM | Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation | ChatGPT | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2305.07609) |
-| PALR | PALR: Personalization Aware LLMs for Recommendation | LLaMA (7B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.07622) |
-| ChatGPT | Large Language Models are Zero-Shot Rankers for Recommender Systems | ChatGPT | Frozen | ECIR 2024 | [[Link]](https://arxiv.org/abs/2305.08845) |
+| **Name** | **Paper** | **LLM Backbone (Largest)** | **LLM Tuning Strategy** | **Publication** | **Link** |**Dataset** |
+|:---:|:---|:---:|:---:|:---:|:---:|:---:|
+| GPT4Rec | GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation | GPT2 (110M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2304.03879) |Amazon Beauty/Electronics|
+| VIP5 | VIP5: Towards Multimodal Foundation Models for Recommendation | T5-base (223M) | Layerwise Adater Tuning | EMNLP 2023 | [[Link]](https://arxiv.org/abs/2305.14302) |Amazon Clothing Sports Beauty Toys|
+| P5-ID | How to Index Item IDs for Recommendation Foundation Models | T5-small (60M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.06569) |Sports/Beauty/Yelp|
+| FaiRLLM | Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation | ChatGPT | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2305.07609) |自建music/movie数据集|
+| PALR | PALR: Personalization Aware LLMs for Recommendation | LLaMA (7B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.07622) |Amazon Beauty/Movielens-1M|
+| ChatGPT | Large Language Models are Zero-Shot Rankers for Recommender Systems | ChatGPT | Frozen | ECIR 2024 | [[Link]](https://arxiv.org/abs/2305.08845) |ML-1M/Games|
 | AGR | Sparks of Artificial General Recommender (AGR): Early Experiments with ChatGPT | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.04518) |
-| NIR | Zero-Shot Next-Item Recommendation using Large Pretrained Language Models | GPT3 (175B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2304.03153) |
-| GPTRec | Generative Sequential Recommendation with GPTRec | GPT2-medium (355M) | Full Finetuning | Gen-IR@SIGIR 2023 | [[Link]](https://arxiv.org/abs/2306.11114) |
-| ChatNews | A Preliminary Study of ChatGPT on News Recommendation: Personalization, Provider Fairness, Fake News | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.10702) |
-| N/A | Large Language Models are Competitive Near Cold-start Recommenders for Language- and Item-based Preferences | PaLM (62B) | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2307.14225) |
-| LLMSeqPrompt | Leveraging Large Language Models for Sequential Recommendation | OpenAI ada model | Finetune | RecSys 2023 | [[Link]](https://arxiv.org/abs/2309.09261) | 
-| GenRec | GenRec: Large Language Model for Generative Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.00457) |
-| UP5 | UP5: Unbiased Foundation Model for Fairness-aware Recommendation | T5-base (223M) | Prefix Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.12090) |
-| HKFR | Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM | ChatGLM (6B) | LoRA | RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.03333) |
+| NIR | Zero-Shot Next-Item Recommendation using Large Pretrained Language Models | GPT3 (175B) | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2304.03153) | MovieLen 100K|
+| GPTRec | Generative Sequential Recommendation with GPTRec | GPT2-medium (355M) | Full Finetuning | Gen-IR@SIGIR 2023 | [[Link]](https://arxiv.org/abs/2306.11114) |MovieLens-1M/MovieLens-20M/Yelp/Gowalla/Amazon Books/LastFM-1b|
+| ChatNews | A Preliminary Study of ChatGPT on News Recommendation: Personalization, Provider Fairness, Fake News | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2306.10702) |MIND|
+| N/A | Large Language Models are Competitive Near Cold-start Recommenders for Language- and Item-based Preferences | PaLM (62B) | Frozen | RecSys 2023 | [[Link]](https://arxiv.org/abs/2307.14225) |自收集数据集|
+| LLMSeqPrompt | Leveraging Large Language Models for Sequential Recommendation | OpenAI ada model | Finetune | RecSys 2023 | [[Link]](https://arxiv.org/abs/2309.09261) |Amazon Beauty/ e-commerce dataset|
+| GenRec | GenRec: Large Language Model for Generative Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2307.00457) |MovieLens 25M/Amazon Toys|
+| UP5 | UP5: Unbiased Foundation Model for Fairness-aware Recommendation | T5-base (223M) | Prefix Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2305.12090) |MovieLens/Insurance|
+| HKFR | Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM | ChatGLM (6B) | LoRA | RecSys 2023 | [[Link]](https://arxiv.org/abs/2308.03333) |美团外卖|
 | N/A | The Unequal Opportunities of Large Language Models: Revealing Demographic Bias through Job Recommendations | ChatGPT | Frozen | EAAMO 2023 | [[Link]](https://arxiv.org/abs/2308.02053) |
-| BIGRec | A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.08434) |
+| BIGRec | A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.08434) |MovieLens10M/Amazon game|
 | KP4SR | Knowledge Prompt-tuning for Sequential Recommendation | T5-small (60M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.08459) |
-| RecSysLLM | Leveraging Large Language Models for Pre-trained Recommender Systems | GLM (10B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.10837) |
-| POD | Prompt Distillation for Efficient LLM-based Recommendation | T5-small (60M) | Full Finetuning | CIKM 2023 | [[Link]](https://lileipisces.github.io/files/CIKM23-POD-paper.pdf) |
-| N/A | Evaluating ChatGPT as a Recommender System: A Rigorous Approach | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.03613) |
+Amazon book/LFM-1b/Movielens-10|
+| RecSysLLM | Leveraging Large Language Models for Pre-trained Recommender Systems | GLM (10B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2308.10837) | 
+Amazon Sports & Outdoors, Beauty, and Toys & Games|
+| POD | Prompt Distillation for Efficient LLM-based Recommendation | T5-small (60M) | Full Finetuning | CIKM 2023 | [[Link]](https://lileipisces.github.io/files/CIKM23-POD-paper.pdf) |Amazon Sports & Outdoors, Beauty, and Toys & Games|
+| N/A | Evaluating ChatGPT as a Recommender System: A Rigorous Approach | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.03613) |Facebook Books Dataset/Last.FM Dataset/MovieLens 100k|
 | RaRS | Retrieval-augmented Recommender System: Enhancing Recommender Systems with Large Language Models | ChatGPT | Frozen | RecSys Doctoral Symposium 2023 | [[Link]](https://dl.acm.org/doi/abs/10.1145/3604915.3608889) |
 | JobRecoGPT | JobRecoGPT -- Explainable job recommendations using LLMs | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.11805) |
 | LANCER | Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling | GPT2 (110M) | Prefix Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.10435) |
