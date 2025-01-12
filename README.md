@@ -182,30 +182,31 @@ Amazon book/LFM-1b/Movielens-10|
 Amazon Sports & Outdoors, Beauty, and Toys & Games|
 | POD | Prompt Distillation for Efficient LLM-based Recommendation | T5-small (60M) | Full Finetuning | CIKM 2023 | [[Link]](https://lileipisces.github.io/files/CIKM23-POD-paper.pdf) |Amazon Sports & Outdoors, Beauty, and Toys & Games|
 | N/A | Evaluating ChatGPT as a Recommender System: A Rigorous Approach | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.03613) |Facebook Books Dataset/Last.FM Dataset/MovieLens 100k|
-| RaRS | Retrieval-augmented Recommender System: Enhancing Recommender Systems with Large Language Models | ChatGPT | Frozen | RecSys Doctoral Symposium 2023 | [[Link]](https://dl.acm.org/doi/abs/10.1145/3604915.3608889) |
-| JobRecoGPT | JobRecoGPT -- Explainable job recommendations using LLMs | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.11805) |
-| LANCER | Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling | GPT2 (110M) | Prefix Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.10435) |
-| TransRec | A Multi-facet Paradigm to Bridge Large Language Model and Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.06491) |
-| AgentCF | AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems | text-davinci-003 & gpt-3.5-turbo | Frozen | WWW 2024 | [[Link]](https://arxiv.org/abs/2310.09233) |
-| P4LM | Factual and Personalized Recommendations using Language Models and Reinforcement Learning | PaLM2-XS | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.06176) |
-| InstructMK | Multiple Key-value Strategy in Recommendation Systems Incorporating Large Language Model | LLaMA (7B) | Full Finetuning | CIKM GenRec 2023 | [[Link]](https://arxiv.org/abs/2310.16409) |
-| LightLM | LightLM: A Lightweight Deep and Narrow Language Model for Generative Recommendation | T5-small (60M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.17488) |
-| LlamaRec | LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking | LLaMA2 (7B) | QLoRA | PGAI@CIKM 2023 | [[Link]](https://arxiv.org/abs/2311.02089) |
+| RaRS | Retrieval-augmented Recommender System: Enhancing Recommender Systems with Large Language Models | ChatGPT | Frozen | RecSys Doctoral Symposium 2023 | [[Link]](https://dl.acm.org/doi/abs/10.1145/3604915.3608889) |MovieLens|
+| JobRecoGPT | JobRecoGPT -- Explainable job recommendations using LLMs | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.11805) |工作|
+| LANCER | Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling | GPT2 (110M) | Prefix Tuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2309.10435) |MovieLens/MIND/Goodreads|
+| TransRec | A Multi-facet Paradigm to Bridge Large Language Model and Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.06491) |Beauty/Toys/Yelp|
+| AgentCF | AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems | text-davinci-003 & gpt-3.5-turbo | Frozen | WWW 2024 | [[Link]](https://arxiv.org/abs/2310.09233) |Amazon review dataset|
+| P4LM | Factual and Personalized Recommendations using Language Models and Reinforcement Learning | PaLM2-XS | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.06176) |MovieLens 25M|
+| InstructMK | Multiple Key-value Strategy in Recommendation Systems Incorporating Large Language Model | LLaMA (7B) | Full Finetuning | CIKM GenRec 2023 | [[Link]](https://arxiv.org/abs/2310.16409) |MovieLens|
+| LightLM | LightLM: A Lightweight Deep and Narrow Language Model for Generative Recommendation | T5-small (60M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2310.17488) |Amazon Beauty toys/Yelp|
+| LlamaRec | LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking | LLaMA2 (7B) | QLoRA | PGAI@CIKM 2023 | [[Link]](https://arxiv.org/abs/2311.02089) |ML-100k/Beauty/Games|
 | N/A | Exploring Recommendation Capabilities of GPT-4V(ision): A Preliminary Case Study | GPT-4V | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.04199) |
-| N/A | Exploring Fine-tuning ChatGPT for News Recommendation | ChatGPT | gpt-3.5-turbo finetuning API | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.05850) |
-| N/A | Do LLMs Implicitly Exhibit User Discrimination in Recommendation? An Empirical Study | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.07054) |
-| LC-Rec | Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.09049) |
-| DOKE | Knowledge Plugins: Enhancing Large Language Models for Domain-Specific Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.10779) |
-| ControlRec | ControlRec: Bridging the Semantic Gap between Language Model and Personalized Recommendation | T5-base (223M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.16441) |
-| LLaRA | LLaRA: Large Language-Recommendation Assistant | LLaMA2 (7B) | LoRA | SIGIR 2024 | [[Link]](https://arxiv.org/abs/2312.02445) |
-| PO4ISR | Large Language Models for Intent-Driven Session Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.07552) |
-| DRDT | DRDT: Dynamic Reflection with Divergent Thinking for LLM-based Sequential Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.11336) |
-| RecPrompt | RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.10463) |
-| LiT5 | Scaling Down, LiTting Up: Efficient Zero-Shot Listwise Reranking with Seq2seq Encoder-Decoder Models | T5-XL (3B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.16098) |
-| STELLA | Large Language Models are Not Stable Recommender Systems | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.15746) |
-| Llama4Rec | Integrating Large Language Models into Recommendation via Mutual Augmentation and Adaptive Aggregation | LLaMA2 (7B) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.13870) |
-| RECLLM | Understanding Biases in ChatGPT-based Recommender Systems: Provider Fairness, Temporal Stability, and Recency | ChatGPT | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.10545) |
-| DEALRec | Data-efficient Fine-tuning for LLM-based Recommendation | LLaMA (7B) | LoRA | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.17197) |
+| N/A | Exploring Fine-tuning ChatGPT for News Recommendation | ChatGPT | gpt-3.5-turbo finetuning API | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.05850) |MIND|
+| N/A | Do LLMs Implicitly Exhibit User Discrimination in Recommendation? An Empirical Study | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.07054) |MIND/CareerBuilder|
+| LC-Rec | Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation | LLaMA (7B) | LoRA | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.09049) |Instruments/Arts/Games|
+| DOKE | Knowledge Plugins: Enhancing Large Language Models for Domain-Specific Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.10779) |ML-1M/Beauty/Online Retail|
+| ControlRec | ControlRec: Bridging the Semantic Gap between Language Model and Personalized Recommendation | T5-base (223M) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2311.16441) |Yelp/Amazon|
+| LLaRA | LLaRA: Large Language-Recommendation Assistant | LLaMA2 (7B) | LoRA | SIGIR 2024 | [[Link]](https://arxiv.org/abs/2312.02445) |MovieLens/Steam/LastFM|
+| PO4ISR | Large Language Models for Intent-Driven Session Recommendations | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.07552) |ML-1M/Games/Bundle|
+| DRDT | DRDT: Dynamic Reflection with Divergent Thinking for LLM-based Sequential Recommendation | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.11336) |ML-1M/Games/Luxury|
+| RecPrompt | RecPrompt: A Prompt Tuning Framework for News Recommendation Using Large Language Models | GPT4 | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.10463) |MIND|
+| LiT5 | Scaling Down, LiTting Up: Efficient Zero-Shot Listwise Reranking with Seq2seq Encoder-Decoder Models | T5-XL (3B) | Full Finetuning | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.16098) |BEIR|
+| STELLA | Large Language Models are Not Stable Recommender Systems | ChatGPT | Frozen | Arxiv 2023 | [[Link]](https://arxiv.org/abs/2312.15746) |MovieLens-1M/Amazon
+dataset/MIND|
+| Llama4Rec | Integrating Large Language Models into Recommendation via Mutual Augmentation and Adaptive Aggregation | LLaMA2 (7B) | Full Finetuning | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.13870) |ML-100K/ML-1M/BookCrossing|
+| RECLLM | Understanding Biases in ChatGPT-based Recommender Systems: Provider Fairness, Temporal Stability, and Recency | ChatGPT | Frozen | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.10545) | MovieLens-Latest-Small|
+| DEALRec | Data-efficient Fine-tuning for LLM-based Recommendation | LLaMA (7B) | LoRA | Arxiv 2024 | [[Link]](https://arxiv.org/abs/2401.17197) |Games/MicroLens-50K/Book|
 
 <b>1.3.3 Hybrid Task</b>
 
